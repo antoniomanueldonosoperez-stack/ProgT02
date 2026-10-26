@@ -14,6 +14,7 @@ public class Diapositiva14 {
 			numero = teclado.nextInt();
 
 		} while (numero < 0 || numero > 10);
+		teclado.close();
 	}
 
 }

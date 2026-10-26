@@ -19,6 +19,7 @@ public class Diapositiva16 {
 			num2 = teclado.nextInt();
 			
 		} while (num1 != num2);
+		teclado.close();
 	}
 
 }
