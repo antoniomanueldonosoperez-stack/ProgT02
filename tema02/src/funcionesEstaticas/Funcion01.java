@@ -9,7 +9,7 @@ public class Funcion01 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Introduce un numero");
 		int numero = teclado.nextInt();
-		System.out.println("El numero tiene " + digitos(numero) + " cifras");
+		System.out.printf("El numero tiene %d cifras ", digitos(numero));
 		teclado.close();
 	}
 
